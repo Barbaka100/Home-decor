@@ -1,0 +1,199 @@
+
+header {
+    height: 60px;
+    background-color: rgb(141, 141, 219);
+    align-items: center;
+}
+
+header .logo {
+    width: 45px;
+    height: 45px;
+}
+
+header .container {
+    align-items: center;
+}
+
+nav {
+    width: calc(100% - 45px);
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(141, 141, 219);
+    padding: 15px 0;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+}
+
+.auth-form-container {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    border-color: rgb(158, 158, 165);
+    border-radius: 8px;
+}
+
+.auth-form-container .text-input-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.auth-form-container .text-input,
+.auth-form-container .location {
+    height: 35px;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border-color: rgb(163, 158, 158);
+    border: 1px solid black;
+}
+
+.auth-form-container .location {
+    background-color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: block;
+    font-size: 16px;
+    height: 35px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: rgb(141, 141, 219);
+    color: white;
+}
+ .btn-link {
+    text-decoration: none;
+    color: blue;
+    line-height: 35px;
+ }
+
+ .btn-link:hover {
+    text-decoration: underline;
+ }
+
+body {
+    width: 100%;
+    height: 926px;
+    display: block;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.sex-container {
+    display: inline-block;
+}
+
+.body-container {
+    padding: 30px 0;
+    min-height: calc(100vh - 45px - 50px);
+    box-sizing: border-box;
+}
+
+/* product list*/
+
+.main-categories {
+    margin: 0 -15px;
+}
+
+.main-category-item {
+    border: 1px solid rgb(183, 180, 180);
+    flex-grow: 1;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px; 
+    margin: 0 15px;
+    width: 25%;
+    color: black;
+}
+
+.main-category-item:hover {
+    border-color: rgb(202, 201, 201);
+    background-color: rgb(213, 211, 211);
+    text-decoration: underline;
+}
+
+.main-category-item img {
+    width: 60px;
+    height: 70px;
+  }
+
+  .d-block {
+    display: block;
+  }
+
+  .product-body {
+    padding: 25px 0;
+  }
+
+.category-navigation-list {
+    border: 1px solid rgb(206, 205, 205);
+    flex-basis: 14.8%;
+    margin: 0;
+    padding: 25px 40px;
+    list-style: disclosure-closed;
+}
+
+.category-navigation-list a {
+    padding: 5px 0;
+    text-decoration: none;
+    color: rgb(94, 93, 93);
+}
+
+.category-navigation-list a:hover {
+    text-decoration: underline;
+    color: rgb(141, 141, 219);
+}
+
+.product-container {
+    flex-grow: 1;
+    background-color: rgb(178, 173, 173);
+    margin-left: 29px;
+}
