@@ -1,7 +1,14 @@
 
+@import url(./fonts.css);
+@import url(./colors.css);
+
+*{
+    font-family:     'Noto Sans Georgian', sans-serif;
+}
+
 header {
     height: 60px;
-    background-color: rgb(141, 141, 219);
+    background-color: var(--lightblu);
     align-items: center;
 }
 
@@ -30,7 +37,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: rgb(141, 141, 219);
+    background-color: var(--lightblu);
     padding: 15px 0;
     height: 50px;
     box-sizing: border-box;
@@ -104,17 +111,18 @@ footer p {
 }
 
 .btn-primary {
-    background-color: rgb(141, 141, 219);
+    background-color: var(--lightblu);
     color: white;
 }
  .btn-link {
     text-decoration: none;
-    color: blue;
+    color: black;
     line-height: 35px;
  }
 
  .btn-link:hover {
     text-decoration: underline;
+    color: var(--blue);
  }
 
 body {
