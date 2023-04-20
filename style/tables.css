@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+    border-collapse: collapse; /*ცხრილის ჩარჩოების შორის დაშორების არ ქონა*/
+}
+
+table th {
+    text-align: start;
+}
+
+table th,
+table td {
+    border: 1px solid var(--black);
+    padding: 5px 15px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--lightblue);
+}
+

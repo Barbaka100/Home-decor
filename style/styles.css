@@ -8,7 +8,7 @@
 
 header {
     height: 60px;
-    background-color: var(--lightblu);
+    background-color: var(--lightblue);
     align-items: center;
 }
 
@@ -37,7 +37,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: var(--lightblu);
+    background-color: var(--lightblue);
     padding: 15px 0;
     height: 50px;
     box-sizing: border-box;
@@ -111,7 +111,7 @@ footer p {
 }
 
 .btn-primary {
-    background-color: var(--lightblu);
+    background-color: var(--lightblue);
     color: white;
 }
  .btn-link {
@@ -202,6 +202,6 @@ body {
 
 .product-container {
     flex-grow: 1;
-    background-color: rgb(178, 173, 173);
+    /*background-color: rgb(178, 173, 173);*/
     margin-left: 29px;
 }
